@@ -1,0 +1,105 @@
+@charset "utf-8";
+.w1440 {
+    width: 1440px;
+    margin: 0 auto;
+}
+.section1{
+    background-image: url('../image/galaxy01.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+header{
+    padding: 36px 0 60px 0;
+    background-color: #ae94b7;
+}
+header h1{
+    margin-top: -10px;
+}
+.logo{
+    float: left;
+}
+.gnb{
+    float: right;
+
+}
+.gnb li{
+    font-family: 'Fjalla One' ,sans-serif;
+    color: #fff;
+    margin-left: 145px;
+    float: left;
+}
+.gnb li a{
+    font-size: 20px;
+    color: #423a2f;
+    transition: all .7s;
+}
+.gnb li a:hover{
+    color: lightsteelblue;
+}
+.sys{
+    padding-top: 150px;
+    color: #fff;
+}
+/*섹션2 영역*/
+.section2{
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/galaxy02.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/*섹션3 영역*/
+.section3{
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/galaxy03.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/*섹션2 영역*/
+.section4{
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/galaxy04.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/*섹션2 영역*/
+.section5{
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/galaxy05.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/*섹션2 영역*/
+.section6{
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/galaxy06.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/*탑 버튼 만들기*/
+.scroll_show{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    opacity: .5;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.top{
+    position: absolute;
+    right: 0;
+    top: 92%;
+    transform: translateY(-50%);
+    background-color: #222;
+}
